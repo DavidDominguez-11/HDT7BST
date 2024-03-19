@@ -25,7 +25,11 @@ La clase `BinaryTreeTest` contiene pruebas unitarias para la clase `BinaryTree`.
 
 ## Uso
 1. Ejecuta la clase `Main` para iniciar el programa.
-Asegúrate de proporcionar los archivos de diccionario (`diccionario.txt`) y el texto a traducir (`texto.txt`) en los directorios correspondientes.
+Asegúrate de proporcionar los archivos de diccionario (`diccionario.txt`) y el texto a traducir (`texto.txt`) en los directorios correspondientes.  
+
+Tener en cuenta que, por alguna razon, aveces no reconoce el package com.example;
+si se da este error, solo borrarlo y volverlo a agregar.
+
 
 ## Pruebas
 
