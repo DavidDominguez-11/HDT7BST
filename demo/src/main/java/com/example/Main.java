@@ -4,11 +4,21 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * Esta clase contiene el método principal para ejecutar el programa de traducción de texto utilizando un diccionario inglés-español.
+ * @author David Dominguez
+ * @version 1.0
+ * @since 2024-03-19
+ */
 public class Main {
+    /**
+     * El método principal del programa.
+     *
+     * @param args Los argumentos de la línea de comandos (no se utilizan en este programa).
+     */
     public static void main(String[] args) {
         // Crear un diccionario
         BinaryTree<Association<String, String>> dictionary = new BinaryTree<>();
-
 
         // Leer el archivo diccionario.txt y agregar palabras al diccionario
         try (BufferedReader reader = new BufferedReader(new FileReader("demo\\src\\main\\java\\com\\example\\diccionario.txt"))) {
