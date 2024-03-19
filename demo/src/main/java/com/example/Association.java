@@ -1,6 +1,6 @@
 package com.example;
 
-class Association<K, V> {
+public class Association<K extends Comparable<K>, V> implements Comparable<Association<K, V>> {
     private K key;
     private V value;
 
@@ -16,4 +16,10 @@ class Association<K, V> {
     public V getValue() {
         return value;
     }
+
+    @Override
+    public int compareTo(Association<K, V> other) {
+        return this.key.compareTo(other.getKey());
+    }
 }
+
