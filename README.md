@@ -5,6 +5,10 @@ Implementación de árboles binarios de búsqueda
 
 Este proyecto implementa un traductor de inglés a español utilizando un árbol binario de búsqueda (BST) para almacenar las asociaciones de palabras en el diccionario.
 
+## UML
+![image](https://github.com/DavidDominguez-11/HDT7BST/assets/84152698/e941e12b-b390-42fb-8e9a-ddc072099479)
+
+
 ## Clases
 
 ### Clase `Main`
